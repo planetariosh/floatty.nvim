@@ -1,6 +1,6 @@
 # floatty.nvim
 
-[![Tests](https://github.com/kalmbach/floatty.nvim/actions/workflows/test.yml/badge.svg)](https://github.com/kalmbach/floatty.nvim/actions/workflows/test.yml)
+[![Tests](https://github.com/planetariosh/floatty.nvim/actions/workflows/test.yml/badge.svg)](https://github.com/planetariosh/floatty.nvim/actions/workflows/test.yml)
 
 **One floating terminal.** A small Neovim plugin that runs your shell in a
 centered floating window. You can show and hide the window as many times
@@ -25,7 +25,7 @@ as you want, the shell keeps running in the background.
 ### `vim.pack`
 
 ```lua
-vim.pack.add { 'https://github.com/kalmbach/floatty.nvim' }
+vim.pack.add { 'https://github.com/planetariosh/floatty.nvim' }
 
 require('floatty').setup()
 ```
@@ -34,7 +34,7 @@ require('floatty').setup()
 
 ```lua
 {
-  'kalmbach/floatty.nvim',
+  'planetariosh/floatty.nvim',
   config = function()
     require('floatty').setup()
   end,
